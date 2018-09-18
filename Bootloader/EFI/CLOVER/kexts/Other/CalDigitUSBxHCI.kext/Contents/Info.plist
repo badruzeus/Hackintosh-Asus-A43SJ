@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CalDigitUSBxHCI</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.3.8, Copyright © 2000-2012 CalDigit Inc. All Rights Reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.CalDigit.driver.CalDigitUSBxHCI</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>I/O Kit Driver for USB XHCI Controllers</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.8</string>
+	<key>CFBundleVersion</key>
+	<string>1.3.8a2</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>CalDigitUSBxHCI</key>
+		<dict>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>CFBundleIdentifier</key>
+			<string>com.CalDigit.driver.CalDigitUSBxHCI</string>
+			<key>IOClass</key>
+			<string>CalDigitUSBxHCI</string>
+			<key>IOProbeScore</key>
+			<integer>11000</integer>
+			<key>IOPCIClassMatch</key>
+			<string>0x0c033000</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOUserClientClass</key>
+			<string>IOUSBControllerUserClient</string>
+			<key>model</key>
+			<string>ASMedia ASM1042 USB 3.0 xHCI Controller</string>
+		</dict>
+		<key>CalDigitUSBxHCI_OMI</key>
+		<dict>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOService</string>
+			<key>IOMatchCategory</key>
+			<string>OMI_XHCI</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x0c033000</string>
+			<key>IOProbeScore</key>
+			<integer>11000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>model</key>
+			<string>ASMedia ASM1042 USB 3.0 xHCI Controller</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.1</string>
+		<key>com.apple.iokit.IOUSBFamily</key>
+		<string>3.0.0</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>9.0.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
