@@ -4,6 +4,9 @@
 // features breaking audio after wake from sleep.
 //
 // Customize to suit your needs.
+//
+// As of CodecCommander v2.7.1, CodecCommander detects AppleALC for setting the default
+// of these two options false.
 
 DefinitionBlock ("", "SSDT", 1, "hack", "CC-ALC", 0)
 {

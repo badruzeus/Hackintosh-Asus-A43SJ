@@ -8,9 +8,17 @@
 		<data>
 		2HbK6uYbh1MRE2ZSY54Fmkarmfc=
 		</data>
+		<key>Resources/SSDT-ALC256-insanelydeepak.dsl</key>
+		<data>
+		q7n9BFKcZ2cfEmoWNxMvAJl2yec=
+		</data>
+		<key>Resources/SSDT-ALC256-vbourachot.dsl</key>
+		<data>
+		w/cb0PmMmf9+tDybi/lJ4/Tulhg=
+		</data>
 		<key>Resources/SSDT-AppleALC.dsl</key>
 		<data>
-		imLcSnP9eRtGXeTs6clU2mg1AuE=
+		tCC9VrXGLT8D4fcS8FMBTMmrJyw=
 		</data>
 		<key>Resources/SSDT-CX20752.dsl</key>
 		<data>
@@ -30,15 +38,37 @@
 			nwE/8TgAG/yPDZfs4fI7HiN7liuoAGQIesctet0sIsk=
 			</data>
 		</dict>
+		<key>Resources/SSDT-ALC256-insanelydeepak.dsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q7n9BFKcZ2cfEmoWNxMvAJl2yec=
+			</data>
+			<key>hash2</key>
+			<data>
+			AqhxJJtLZUnwCLPmh9qWNk0shpMoiQ7AKhDwORqB0dQ=
+			</data>
+		</dict>
+		<key>Resources/SSDT-ALC256-vbourachot.dsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w/cb0PmMmf9+tDybi/lJ4/Tulhg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ex+dKOUu4m/FlyEqZd0UKsTZfloipKloRDMbREKV5TQ=
+			</data>
+		</dict>
 		<key>Resources/SSDT-AppleALC.dsl</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			imLcSnP9eRtGXeTs6clU2mg1AuE=
+			tCC9VrXGLT8D4fcS8FMBTMmrJyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			pR8H3PDkrYfwrrtf73MAI5LHvh3hWKFBiT5e8S514zk=
+			nWc7JoDV66eHFezb2sCUZl0QqWBnpkwVCV42C8vrEpQ=
 			</data>
 		</dict>
 		<key>Resources/SSDT-CX20752.dsl</key>

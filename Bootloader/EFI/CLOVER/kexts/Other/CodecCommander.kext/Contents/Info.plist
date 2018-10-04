@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>CodecCommander</string>
 	<key>CFBundleGetInfoString</key>
-	<string>2.6.3, Copyright © 2013-2014 TimeWalker. All rights reserved.</string>
+	<string>2.7.1, Copyright © 2013-2014 TimeWalker. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.tw.CodecCommander</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.6.3</string>
+	<string>2.7.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,7 +27,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.6.3</string>
+	<string>2.7.1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -92,12 +92,8 @@
 					<integer>3000</integer>
 					<key>Custom Commands</key>
 					<array/>
-					<key>Perform Reset</key>
-					<true/>
 					<key>Perform Reset on EAPD Fail</key>
 					<false/>
-					<key>Perform Reset on External Wake</key>
-					<true/>
 					<key>Send Delay</key>
 					<integer>300</integer>
 					<key>Sleep Nodes</key>
