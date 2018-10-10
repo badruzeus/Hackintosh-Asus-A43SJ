@@ -1,7 +1,7 @@
 // CodecCommander configuration for ALC256
 // From: https://github.com/vbourachot/XPS13-9350-OSX/blob/master/ssdt/SSDT-ALC256.dsl
 
-DefinitionBlock ("", "SSDT", 1, "hack", "ALC256", 0x00003000)
+DefinitionBlock ("", "SSDT", 1, "hack", "_ALC256v", 0x00003000)
 {
     External(_SB.PCI0.HDEF, DeviceObj)
     Name(_SB.PCI0.HDEF.RMCF, Package()

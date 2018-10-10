@@ -4,7 +4,7 @@
 //
 // created by nayeweiyang/XuWang
 
-DefinitionBlock ("", "SSDT", 1, "hack", "CX20752", 0)
+DefinitionBlock ("", "SSDT", 1, "hack", "_CX20752", 0)
 {
     External(_SB.PCI0.HDEF, DeviceObj)
     

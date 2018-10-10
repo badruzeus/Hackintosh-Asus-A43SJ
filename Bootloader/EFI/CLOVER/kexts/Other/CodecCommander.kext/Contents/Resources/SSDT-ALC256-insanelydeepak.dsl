@@ -1,7 +1,7 @@
 // CodecCommander configuration for ALC256 to fix various issue 
 // repo: https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12
 
-DefinitionBlock ("", "SSDT", 1, "hack", "ALC256", 0)
+DefinitionBlock ("", "SSDT", 1, "hack", "_ALC256i", 0)
 {
     External(_SB.PCI0.HDEF, DeviceObj)
     Name(_SB.PCI0.HDEF.RMCF, Package()

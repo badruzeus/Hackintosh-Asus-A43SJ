@@ -1,7 +1,7 @@
 // CodecCommander configuration for ALC1220
 // provided by daliansky @github
 
-DefinitionBlock ("", "SSDT", 1, "hack", "ALC1220", 0)
+DefinitionBlock ("", "SSDT", 1, "hack", "_ALC1220", 0)
 {
     External(_SB.PCI0.HDEF, DeviceObj)
     Name(_SB.PCI0.HDEF.RMCF, Package()
