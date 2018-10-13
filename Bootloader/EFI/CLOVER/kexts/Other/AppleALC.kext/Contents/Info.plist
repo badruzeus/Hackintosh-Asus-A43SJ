@@ -4165,6 +4165,33 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>phucnguyen.2411 - ALC662v3 for Lenovo ThinkCentre M92P SFF</string>
+					<key>CodecID</key>
+					<integer>283903586</integer>
+					<key>ConfigData</key>
+					<data>
+					AZccEAGXHZEBlx6gAZcfkQFHHCABRx1AAUce
+					IQFHHwEBVxwwAVcdQQFXHhEBVx8BAYccQAGH
+					HZABhx6BAYcfAQG3HFABtx1AAbceIQG3HwIB
+					5xxgAecdYAHnHksB5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC663</string>
 					<key>CodecID</key>
 					<integer>283903587</integer>
