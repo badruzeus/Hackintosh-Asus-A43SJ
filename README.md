@@ -85,6 +85,7 @@ This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook 
 ### Video Tutorials
 - [Multibooting](https://www.youtube.com/watch?v=vXMNyiEgD6o) Windows, Ubuntu, PhoenixOS & macOS using Clover (UEFI)
 - Fixing [Display Color Banding](https://www.youtube.com/watch?v=cX-tBC71hHM) issue with Nvidia graphics (Hackintosh)
+- Video demonstration about [Full Graphics Acceleration support](https://www.youtube.com/watch?v=cX-tBC71hHM) (QE/CI enabled) under macOS.
  
 --------------------------------------------------------------------------------------------
  
