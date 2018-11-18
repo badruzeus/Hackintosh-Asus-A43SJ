@@ -9,7 +9,7 @@ This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook 
  
 ### How to Get
 - Clone whole repo: $ `git clone https://github.com/badruzeus/Hackintosh-Asus-A43SJ`
-- Download [EFI Folder](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/badruzeus/Hackintosh-Asus-A43SJ/tree/master/Bootloader) only.
+- Download [Specific Folder](https://minhaskamal.github.io/DownGit/#/home) only.
  
 --------------------------------------------------------------------------------------------
  
