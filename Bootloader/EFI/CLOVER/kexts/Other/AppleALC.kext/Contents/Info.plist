@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3.4</string>
+	<string>1.3.5</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.3.4</string>
+	<string>1.3.5</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -394,6 +394,31 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>44</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>AD1988A by chrome</string>
+					<key>CodecID</key>
+					<integer>299112840</integer>
+					<key>ConfigData</key>
+					<data>
+					ARccQAEXHUABFx4hARcfAQEnHAABJx1AASce
+					EQEnHwEBNxzwATcdAAE3HgABNx9AAUccYAFH
+					HZABRx6gAUcfkAFXHIABVx0wAVcegQFXHwEB
+					ZxwgAWcdEAFnHgEBZx8BAXccUAF3HZABdx6B
+					AXcfAQGHHPABhx0AAYceAAGHH0ABtxygAbcd
+					8QG3HkUBtx8BAccc8AHHHQABxx4AAccfQAJH
+					HBACRx1gAkceAQJHHwECVxwwAlcdIAJXHgEC
+					Vx8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -6565,11 +6590,11 @@
 					<key>ConfigData</key>
 					<data>
 					AUccEAFHHUABRx4RAUcfkAFHDAIBVxwgAVcd
-					EAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQGH
-					HEABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEB
-					lx8CAaccUAGnHTABpx6BAacfAQG3HHABtx1A
-					AbceIQG3HwIBtwwCAecckAHnHWEB5x5LAecf
-					AQ==
+					EAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQF3
+					HPABdx0AAXceAAF3H0ABhxxAAYcdkAGHHqAB
+					hx+QAZccYAGXHZABlx6BAZcfAgGnHFABpx0w
+					AacegQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcM
+					AgHnHJAB5x1hAeceSwHnHwE=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -6594,11 +6619,11 @@
 					<key>ConfigData</key>
 					<data>
 					AUccEAFHHUABRx4RAUcfkAFHDAIBVxzwAVcd
-					AAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAGH
-					HEABhx1gAYceAQGHHwEBlxxgAZcdkAGXHqAB
-					lx+QAaccUAGnHRABpx4BAacfAQG3HHABtx1A
-					AbceIQG3HwIBtwwCAecckAHnHWEB5x5LAecf
-					AQ==
+					AAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAF3
+					HPABdx0AAXceAAF3H0ABhxxAAYcdYAGHHgEB
+					hx8BAZccYAGXHZABlx6gAZcfkAGnHFABpx0Q
+					AaceAQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcM
+					AgHnHJAB5x1hAeceSwHnHwE=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
