@@ -1382,6 +1382,31 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>Realtek ALC255 Gigabyte Brix BRI5(H) by Najdanovic Ivan</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6gAScfkAGXHCABlx0RAZce
+					gQGXHwICFxxAAhcdEQIXHiECFx8CAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC255_v2</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
@@ -4539,6 +4564,37 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>28</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Unbelievable9 - Realtek ALC295/ALC3254 for Dell Latitude 5290</string>
+					<key>CodecID</key>
+					<integer>283902613</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6mAScftwE3HPABNx0AATce
+					AAE3H0ABRxwQAUcdAQFHHhcBRx+QAUcMAgFn
+					HPABZx0AAWceAAFnH0ABdxzwAXcdAAF3HgAB
+					dx9AAYcc8AGHHQABhx4AAYcfQAGXHHABlx0g
+					AZceqwGXHwIBpxzwAacdAAGnHgABpx9AAbcc
+					8AG3GwABtx4AAbcfQAHXHPAB1x0AAdceAAHX
+					H0AB5xzwAecdAAHnHgAB5x9AAhccMAIXHRAC
+					Fx4rAhcfAgIXDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>77</integer>
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
