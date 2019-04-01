@@ -165,6 +165,24 @@
 					<string>Internal</string>
 				</dict>
 				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>PhoenixOS x86</string>
+					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>\EFI\PhoenixOS\boot\grubx64.efi</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>EFIUUIDP-XXXX-YYYY-ZZZZ-123456ABCDEF</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+				<dict>
 					<key>Arguments</key>
 					<string>slide=128 ngfxgl=1</string>
 					<key>Disabled</key>
