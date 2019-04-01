@@ -1,16 +1,13 @@
 # Hackintosh-Asus-A43SJ
 This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook with multibooting:
-- Mac OS X El Capitan 10.11.6
-- macOS Mojave 10.14
-- Ubuntu 18.04, and
-- Windows 10.
+- macOS High Sierra 10.13.6
+- macOS Mojave 10.14.x
+- Ubuntu 18.04.x LTS
+- Windows 10, and
+- Phoenix OS (Android x86)
  
 <img src="/img/macOS-Mojave.png?raw=true" alt="macOS Mojave" align="center">
- 
-### How to Get
-- Clone whole repo: $ `git clone https://github.com/badruzeus/Hackintosh-Asus-A43SJ`
-- Download [Specific Folder](https://minhaskamal.github.io/DownGit/#/home) only.
- 
+  
 --------------------------------------------------------------------------------------------
  
 ### Notebook Specs
@@ -33,8 +30,8 @@ This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook 
 ### EFI Contains
 - [x] <b>Clover Bootloader binary, config.plist</b>, drivers for legacy/uefi, themes, etc..
 - [x] <b>Patched ACPI Tables (DSDT-SSDT)</b> for Graphics, Audio, Wifi, Ethernet, Battery, etc..
-- [x] <b>3rd party kexts</b> for working devices under Mac OS X El Capitan (10.11) and macOS Mojave (10.14)
-- [x] Windows 10 EFI (bootmgfw.efi), Ubuntu 18.04 boot (grubx64.efi) \\Optional.
+- [x] <b>3rd party kexts</b> for working devices under Mac OS X 10.11.6 upto macOS Mojave 10.14.x
+- [x] Windows 10 EFI (bootmgfw.efi), Ubuntu 18.04.x boot (grubx64.efi) \\Optional.
  
 --------------------------------------------------------------------------------------------
  
@@ -58,7 +55,7 @@ This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook 
 ### Not Worked / Bugs
 - [ ] Realtek USB2.0 CardReader
 - [ ] HDMI / VGA Ports (not tested)
-- [ ] Random Graphics crash issue with GF119 under macOS 10.14
+- [ ] Random Graphics crash issue with GF119 under macOS 10.13.6 / 10.14.x
 - [ ] Unsolved "AppleUSBHostPort::interruptOccurred: overcurrent detected" warnings (not error).
  
 --------------------------------------------------------------------------------------------
@@ -72,12 +69,14 @@ This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook 
 - [x] Select <b>Add New Entry</b>
 - [x] Give it a name (for example: clover) and locate path to <b>EFI Partition</b>
 - [x] Set Clover entry (w/o quotes) as: <b>"\efi\clover\cloverx64.efi"</b>
-- [x] Confirm the changes by pressing <b>"Create"</b>, then use it as <b>1st boot entry</b>.
-5. To get GT 520M working under macOS 10.14 (18A391), use [/Extras/CoreDisplay](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/Extras/CoreDisplay.zip) binary and place to:
+- [x] Confirm the changes by pressing <b>"Create"</b>, then use it as <b>1st boot entry</b>
+- [x] Alternatively follow <b>[This Method]</b>(https://github.com/badruzeus/CloverEFI-4MU#bugs--troubleshooting) for manually add entry via UEFI Shell (bcfg boot add XX).
+
+5. To get GT 520M working under macOS 10.14.x, use [/Extras/CoreDisplay](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/Extras/CoreDisplay.zip) binary and place to:
 `/System/Library/Frameworks/CoreDisplay.framework/Versions/A`
 6. Install [/Extras/AirPortAtheros40.kext](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/Extras/AirPortAtheros40.kext.zip) to SLE using Kext Utility for a working AR9285 Wifi under 10.14.
-7. Install [/Extras/AppleIntelSNB~.kext](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/Extras/AppleIntelSNB*.zip) to SLE using Kext Utility for a working Intel MEI under 10.14.
-8. To fix Display [Color Banding](https://en.wikipedia.org/wiki/Colour_banding) issue under 10.11.x or 10.14, just place [/Extras/DisplayVendorID-da9](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/Extras/DisplayVendorID-da9.zip) to:
+7. Install [/Extras/AppleIntelSNB~.kext](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/Extras/AppleIntelSNB.zip) to SLE using Kext Utility for a working Intel MEI under 10.14.
+8. To fix Display [Color Banding](https://en.wikipedia.org/wiki/Colour_banding) issue under 10.11.x upto 10.14.x, just place [/Extras/DisplayVendorID-da9](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/Extras/DisplayVendorID-da9.zip) to:
 `/System/Library/Displays/Contents/Resources/Overrides`
  
 --------------------------------------------------------------------------------------------

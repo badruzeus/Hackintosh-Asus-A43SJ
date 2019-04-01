@@ -33,7 +33,7 @@
 		<key>HaltEnabler</key>
 		<true/>
 		<key>ResetAddress</key>
-		<string>0x0cf9</string>
+		<string>0x0CF9</string>
 		<key>ResetValue</key>
 		<string>0x0006</string>
 		<key>SSDT</key>
@@ -123,14 +123,18 @@
 					<string>Internal</string>
 				</dict>
 				<dict>
+					<key>Arguments</key>
+					<string>slide=128 ngfxgl=1</string>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
-					<string>OS X El Capitan</string>
+					<string>macOS High Sierra</string>
 					<key>Hidden</key>
 					<false/>
 					<key>Ignore</key>
 					<false/>
+					<key>InjectKexts</key>
+					<true/>
 					<key>NoCaches</key>
 					<false/>
 					<key>Path</key>
@@ -147,6 +151,8 @@
 					<false/>
 					<key>FullTitle</key>
 					<string>Ubuntu Linux</string>
+					<key>Hidden</key>
+					<false/>
 					<key>Ignore</key>
 					<false/>
 					<key>Path</key>
@@ -159,6 +165,8 @@
 					<string>Internal</string>
 				</dict>
 				<dict>
+					<key>Arguments</key>
+					<string>slide=128 ngfxgl=1</string>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
@@ -179,6 +187,8 @@
 					<string>Internal</string>
 				</dict>
 				<dict>
+					<key>Arguments</key>
+					<string>slide=128 ngfxgl=1 nv_disable=1</string>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
@@ -420,7 +430,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02244104J9F5XXXX</string>
+		<string>C02206802J9DY3V1F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -450,11 +460,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro10,1</string>
 		<key>SerialNumber</key>
-		<string>ABCDEF123456</string>
+		<string>C02H70M0DKQ1</string>
 		<key>SmUUID</key>
-		<string>ABCD1234-2B25-4428-B0CF-2F5B6D4A654E</string>
-		<key>Trust</key>
-		<true/>
+		<string>43FCA49D-1218-470C-8D9E-763ED43DFC14</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
