@@ -70,7 +70,7 @@ This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook 
 - [x] Give it a name (for example: clover) and locate path to <b>EFI Partition</b>
 - [x] Set Clover entry (w/o quotes) as: <b>"\efi\clover\cloverx64.efi"</b>
 - [x] Confirm the changes by pressing <b>"Create"</b>, then use it as <b>1st boot entry</b>
-- [x] Alternatively follow <b>[This Method]</b>(https://github.com/badruzeus/CloverEFI-4MU#bugs--troubleshooting) for manually add entry via UEFI Shell (bcfg boot add XX).
+- [x] Alternatively follow [This Method](https://github.com/badruzeus/CloverEFI-4MU#bugs--troubleshooting) for manually add entry via UEFI Shell (bcfg boot add XX).
 
 5. To get GT 520M working under macOS 10.14.x, use [/Extras/CoreDisplay](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/Extras/CoreDisplay.zip) binary and place to:
 `/System/Library/Frameworks/CoreDisplay.framework/Versions/A`
