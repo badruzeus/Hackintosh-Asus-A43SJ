@@ -19,15 +19,17 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
+				<string>DMAR</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>ECDT</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>Cpu0Ist</string>
+				<string>CpuPm</string>
 			</dict>
 		</array>
 		<key>HaltEnabler</key>
@@ -47,10 +49,12 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<false/>
+				<true/>
 			</dict>
+			<key>PluginType</key>
+			<string>0</string>
 			<key>UseSystemIO</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -63,6 +67,8 @@
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
 		<string>PBR</string>
+		<key>NeverDoRecovery</key>
+		<true/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
@@ -94,10 +100,12 @@
 		<false/>
 		<key>USB</key>
 		<dict>
+			<key>AddClockID</key>
+			<false/>
 			<key>FixOwnership</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -269,8 +277,6 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>DualLink</key>
-		<integer>0</integer>
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
@@ -286,7 +292,7 @@
 			<false/>
 		</dict>
 		<key>NvidiaNoEFI</key>
-		<true/>
+		<false/>
 		<key>NvidiaSingle</key>
 		<false/>
 	</dict>
@@ -306,6 +312,41 @@
 		<false/>
 		<key>KernelPm</key>
 		<false/>
+		<key>KernelToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Disable panic kext logging on High Sierra</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				igKEwHRE
+				</data>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+				<key>Replace</key>
+				<data>
+				igKEwOtE
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable panic kext logging on Mojave</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				igKEwHRC
+				</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Replace</key>
+				<data>
+				igKEwOtC
+				</data>
+			</dict>
+		</array>
 		<key>KernelXCPM</key>
 		<false/>
 		<key>KextsToPatch</key>
@@ -420,6 +461,46 @@
 				AAAAAA==
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Configure PM (BT) for HighSierra</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				BYUHAQ==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOBluetoothHostControllerUSBTransport</string>
+				<key>Replace</key>
+				<data>
+				D4QHAQ==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Configure PM (BT) for Mojave</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				D4cHAQ==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOBluetoothHostControllerUSBTransport</string>
+				<key>Replace</key>
+				<data>
+				D4QHAQ==
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -471,6 +552,13 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
+		<key>Memory</key>
+		<dict>
+			<key>Channels</key>
+			<integer>2</integer>
+			<key>SlotCount</key>
+			<integer>2</integer>
+		</dict>
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
@@ -481,6 +569,8 @@
 		<string>C02H70M0DKQ1</string>
 		<key>SmUUID</key>
 		<string>43FCA49D-1218-470C-8D9E-763ED43DFC14</string>
+		<key>Trust</key>
+		<true/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

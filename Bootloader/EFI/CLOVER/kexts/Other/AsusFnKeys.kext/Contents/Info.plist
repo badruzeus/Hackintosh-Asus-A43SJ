@@ -73,12 +73,12 @@
 				<key>IdleKBacklightAutoOffTimeout</key>
 				<integer>10000</integer>
 				<key>KeyboardBLightLevelAtBoot</key>
-				<integer>1</integer>
+				<integer>0</integer>
 			</dict>
 			<key>RM,deliverNotifications</key>
 			<true/>
 			<key>VOODOOI2C,deliverNotifications</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>FnKeysHIKeyboard</key>
 		<dict>
@@ -99,9 +99,9 @@
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOACPIFamily</key>
-		<string>1.2</string>
+		<string>1.0d1</string>
 		<key>com.apple.iokit.IOHIDSystem</key>
-		<string>1.6.5</string>
+		<string>1.0.0b1</string>
 		<key>com.apple.kpi.bsd</key>
 		<string>14</string>
 		<key>com.apple.kpi.iokit</key>

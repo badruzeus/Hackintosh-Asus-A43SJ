@@ -53,7 +53,7 @@
 					<key>max</key>
 					<integer>100</integer>
 					<key>min</key>
-					<integer>12</integer>
+					<integer>0</integer>
 				</dict>
 				<key>commit</key>
 				<dict>
@@ -66,7 +66,7 @@
 			<key>IONameMatch</key>
 			<string>backlight</string>
 			<key>IOProbeScore</key>
-			<integer>3000</integer>
+			<integer>9999</integer>
 			<key>IOProviderClass</key>
 			<string>IOACPIPlatformDevice</string>
 		</dict>

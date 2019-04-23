@@ -856,7 +856,7 @@
 			<key>IOClass</key>
 			<string>ApplePS2SmartTouchpad</string>
 			<key>IOProbeScore</key>
-			<integer>3000</integer>
+			<integer>5000</integer>
 			<key>IOProviderClass</key>
 			<string>ApplePS2MouseDevice</string>
 			<key>Manufacturer</key>

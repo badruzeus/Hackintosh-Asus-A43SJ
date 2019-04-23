@@ -24,27 +24,25 @@
 	<dict>
 		<key>CalDigitUSBxHCI</key>
 		<dict>
-			<key>IOPCITunnelCompatible</key>
-			<true/>
 			<key>CFBundleIdentifier</key>
 			<string>com.CalDigit.driver.CalDigitUSBxHCI</string>
 			<key>IOClass</key>
 			<string>CalDigitUSBxHCI</string>
-			<key>IOProbeScore</key>
-			<integer>11000</integer>
 			<key>IOPCIClassMatch</key>
 			<string>0x0c033000</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOProbeScore</key>
+			<integer>11000</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>IOUserClientClass</key>
 			<string>IOUSBControllerUserClient</string>
 			<key>model</key>
-			<string>ASMedia ASM1042 USB 3.0 xHCI Controller</string>
+			<string>ASMedia ASM1040 USB 3.0 xHCI Controller</string>
 		</dict>
 		<key>CalDigitUSBxHCI_OMI</key>
 		<dict>
-			<key>IOPCITunnelCompatible</key>
-			<true/>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.kpi.iokit</string>
 			<key>IOClass</key>
@@ -53,18 +51,20 @@
 			<string>OMI_XHCI</string>
 			<key>IOPCIClassMatch</key>
 			<string>0x0c033000</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
 			<key>IOProbeScore</key>
 			<integer>11000</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>model</key>
-			<string>ASMedia ASM1042 USB 3.0 xHCI Controller</string>
+			<string>ASMedia ASM1040 USB 3.0 xHCI Controller</string>
 		</dict>
 	</dict>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOPCIFamily</key>
-		<string>2.1</string>
+		<string>2.9</string>
 		<key>com.apple.iokit.IOUSBFamily</key>
 		<string>3.0.0</string>
 		<key>com.apple.kpi.bsd</key>
