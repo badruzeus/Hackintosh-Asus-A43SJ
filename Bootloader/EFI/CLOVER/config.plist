@@ -23,13 +23,17 @@
 			</dict>
 			<dict>
 				<key>Signature</key>
-				<string>ECDT</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>CpuPm</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT-PLUG</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>ECDT</string>
 			</dict>
 		</array>
 		<key>HaltEnabler</key>
@@ -49,7 +53,7 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>PluginType</key>
 			<string>0</string>
@@ -519,11 +523,11 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/14/2019</string>
+		<string>04/16/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP101.88Z.F000.B00.1902141507</string>
+		<string>MBP101.88Z.F000.B00.1904161750</string>
 		<key>Board-ID</key>
 		<string>Mac-C3EC7CD22292981F</string>
 		<key>BoardManufacturer</key>
@@ -541,7 +545,7 @@
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>EfiVersion</key>
-		<string>253.0.0.0.0</string>
+		<string>255.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -581,7 +585,7 @@
 		<key>InjectSystemID</key>
 		<true/>
 		<key>NvidiaWeb</key>
-		<true/>
+		<false/>
 	</dict>
 </dict>
 </plist>
