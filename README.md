@@ -2,11 +2,12 @@
 This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook with multibooting:
 - macOS High Sierra 10.13.6
 - macOS Mojave 10.14.x
+- macOS Catalina 10.15
 - Ubuntu 18.04.x LTS
 - Windows 10, and
 - Phoenix OS (Android x86)
  
-<img src="/img/macOS-Mojave.png?raw=true" alt="macOS Mojave" align="center">
+<img src="/img/macOS-Catalina.png?raw=true" alt="macOS Catalina" align="center">
   
 --------------------------------------------------------------------------------------------
  
