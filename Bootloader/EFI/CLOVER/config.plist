@@ -38,6 +38,8 @@
 		</array>
 		<key>HaltEnabler</key>
 		<true/>
+		<key>PatchAPIC</key>
+		<false/>
 		<key>ResetAddress</key>
 		<string>0x0CF9</string>
 		<key>ResetValue</key>
@@ -55,8 +57,6 @@
 				<key>PluginType</key>
 				<false/>
 			</dict>
-			<key>PluginType</key>
-			<string>0</string>
 			<key>UseSystemIO</key>
 			<false/>
 		</dict>
@@ -69,10 +69,8 @@
 		<string>CLOVERX64.efi</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>Legacy</key>
-		<string>PBR</string>
 		<key>NeverDoRecovery</key>
-		<true/>
+		<false/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
@@ -87,12 +85,7 @@
 		<false/>
 	</dict>
 	<key>CPU</key>
-	<dict>
-		<key>UseARTFrequency</key>
-		<false/>
-	</dict>
-	<key>ConfigName</key>
-	<string>config.plist</string>
+	<dict/>
 	<key>Devices</key>
 	<dict>
 		<key>Audio</key>
@@ -244,8 +237,6 @@
 		</dict>
 		<key>CustomIcons</key>
 		<false/>
-		<key>EmbeddedThemeType</key>
-		<string>Dark</string>
 		<key>Hide</key>
 		<array>
 			<string>SAMPLE00-XXXX-0000-YYYY-NONBOOTABLEX</string>
@@ -322,7 +313,7 @@
 				<key>Comment</key>
 				<string>Disable panic kext logging on High Sierra</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				igKEwHRE
@@ -338,7 +329,7 @@
 				<key>Comment</key>
 				<string>Disable panic kext logging on Mojave</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				igKEwHRC
@@ -395,7 +386,7 @@
 				<key>Comment</key>
 				<string>Enable Nvidia HDMI for Mojave</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				3hALDg==
@@ -429,26 +420,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>AppleRTC for 10.14.4</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				dTMPtw==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleRTC</string>
-				<key>Replace</key>
-				<data>
-				6zMPtw==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Fix ALPM IO Error for AppleAHCIPort</string>
 				<key>Disabled</key>
 				<false/>
@@ -465,46 +436,6 @@
 				AAAAAA==
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Configure PM (BT) for HighSierra</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				BYUHAQ==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOBluetoothHostControllerUSBTransport</string>
-				<key>Replace</key>
-				<data>
-				D4QHAQ==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Configure PM (BT) for Mojave</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				D4cHAQ==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOBluetoothHostControllerUSBTransport</string>
-				<key>Replace</key>
-				<data>
-				D4QHAQ==
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -513,21 +444,17 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
-		<key>MLB</key>
-		<string>ABCDEFGHIJ1234567</string>
 		<key>ROM</key>
-		<data>
-		q83vEjRW
-		</data>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>04/16/2019</string>
+		<string>06/13/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP101.88Z.F000.B00.1904161750</string>
+		<string>MBP101.88Z.F000.B00.1906131920</string>
 		<key>Board-ID</key>
 		<string>Mac-C3EC7CD22292981F</string>
 		<key>BoardManufacturer</key>
@@ -545,7 +472,7 @@
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>EfiVersion</key>
-		<string>255.0.0.0.0</string>
+		<string>257.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -572,7 +499,7 @@
 		<key>SerialNumber</key>
 		<string>C02H70M0DKQ1</string>
 		<key>SmUUID</key>
-		<string>43FCA49D-1218-470C-8D9E-763ED43DFC14</string>
+		<string>11B8343B-F573-428E-B338-75A57490E61B</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
@@ -584,8 +511,6 @@
 		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
-		<key>NvidiaWeb</key>
-		<false/>
 	</dict>
 </dict>
 </plist>
