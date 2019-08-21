@@ -7,7 +7,7 @@ This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook 
 - Windows 10, and
 - Phoenix OS (Android x86)
  
-<img src="/img/macOS-Catalina.png?raw=true" alt="macOS Catalina" align="center">
+<img src="/img/macOS-Catalina.jpg?raw=true" alt="macOS Catalina" align="center">
   
 --------------------------------------------------------------------------------------------
  
