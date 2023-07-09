@@ -94,3 +94,6 @@ This is my complete EFI folder to be used for hackintosh on Asus A43SJ notebook 
  
  
 :: <i>Follow me on [AppleLife](https://www.applelife.ru/members/badruzeus.112558/) / [Facebook](https://fb.com/badruzeus) / [InsanelyMac](https://www.insanelymac.com/forum/profile/826765-badruzeus) / [MacRumors](https://forums.macrumors.com/members/badruzeus.1133819/) / [Reddit](https://www.reddit.com/user/Badruzeus) / [SourceForge](https://sourceforge.net/u/badruzeus/profile) / [Youtube](https://www.youtube.com/channel/UCM2mZ2r2Gy914X-3N18b6qA)</i> ::
+
+Bring me to Life:
+[Donate](https://www.paypal.com/paypalme/badruzeusshava)
